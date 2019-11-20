@@ -4,6 +4,6 @@
   tasks:
     - name: create a file or modify timestamp if already present
       win_file:
-        path: C:\Temp\folder\subfolder
+        path: C:\\Temp\\folder\\subfolder
         state: directory
 ...
