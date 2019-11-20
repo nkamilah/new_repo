@@ -3,7 +3,7 @@
   hosts: all
   tasks:
     - name: check the information on the file if the file exists
-      wins_stat:
+      win_stat:
         path: C:\\Temp\\test.conf
       register: out
     - name: showing the statistic
